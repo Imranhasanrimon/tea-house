@@ -50,16 +50,20 @@ p {
 
 }
 
-.food p {
+.food p,
+.about-us p {
     opacity: .6;
     font-size: 18px;
     font-weight: 500;
+    font-family: sans-serif;
 }
 
-.food h1 {
+.food h1,
+.about-us h1 {
     font-size: 40px;
     font-weight: 600;
     margin: 15px 0;
+    font-family: sans-serif;
 }
 
 .card-container {
@@ -89,4 +93,36 @@ p {
     font-weight: 600;
     border: none;
     margin: 50px 0;
+}
+
+/* about us section  */
+.about-us {
+    width: 1903px;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+}
+
+.about-us>img {
+    width: 960px;
+    height: 671px;
+}
+
+.about-us .contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-us .hr {
+    background-color: rgb(240, 240, 240);
+    height: 2px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.about-us .contact img {
+    width: 50px;
+    margin: 10px;
 }
