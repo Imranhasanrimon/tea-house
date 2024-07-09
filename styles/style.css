@@ -40,3 +40,53 @@ p {
     justify-content: center;
     background: rgba(5, 151, 160, 0.15);
 }
+
+/* food section  */
+.food {
+    width: 1320px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.food p {
+    opacity: .6;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.food h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card-container img {
+    width: 424px;
+    height: 283px;
+}
+
+.food span {
+    padding: 14px 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.food button {
+    border-radius: 8px;
+    padding: 21px 32px 21px 32px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin: 50px 0;
+}
