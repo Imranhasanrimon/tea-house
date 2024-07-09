@@ -51,7 +51,8 @@ p {
 }
 
 .food p,
-.about-us p {
+.about-us p,
+footer p {
     opacity: .6;
     font-size: 18px;
     font-weight: 500;
@@ -59,7 +60,8 @@ p {
 }
 
 .food h1,
-.about-us h1 {
+.about-us h1,
+footer h1 {
     font-size: 40px;
     font-weight: 600;
     margin: 15px 0;
@@ -108,21 +110,45 @@ p {
     height: 671px;
 }
 
-.about-us .contact {
+.about-us .contact,
+footer .contact {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
 }
 
-.about-us .hr {
+.about-us .hr,
+footer .hr {
     background-color: rgb(240, 240, 240);
     height: 2px;
     width: 100%;
     margin: 15px 0;
 }
 
-.about-us .contact img {
+.about-us .contact img,
+footer img {
     width: 50px;
     margin: 10px;
+}
+
+/* footer section  */
+footer {
+    width: 1903px;
+    height: 671px;
+    margin: 50px auto;
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../assets/food.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+footer .hr {
+    background-color: rgb(207, 207, 207);
+    height: 2px;
+    width: 1320px;
+    margin: 15px auto;
 }
