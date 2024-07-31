@@ -11,6 +11,11 @@
         flex-direction: column-reverse;
     }
 
+    header .btn-primary {
+        padding: 15px;
+        font-size: 1rem;
+    }
+
     header h1 {
         font-size: 3rem;
         margin-top: 30px;
