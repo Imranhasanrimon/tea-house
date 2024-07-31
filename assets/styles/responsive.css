@@ -87,6 +87,11 @@
         bottom: -80px;
     }
 
+    /* news section starts here  */
+    .news .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 
@@ -163,5 +168,14 @@
         bottom: -90px;
     }
 
+    /* news section starts here  */
+    .news .container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .news .container .double-span {
+        grid-column: span 2;
+    }
 
 }
