@@ -45,6 +45,48 @@
         width: 100%;
     }
 
+    /* Riview section starts here  */
+    .review {
+        margin: 20px;
+        padding: 20px;
+        padding-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .meet {
+        max-width: 100%;
+    }
+
+    .chat {
+        margin-right: 0px;
+    }
+
+    .chat .client {
+        width: 50px;
+        top: -10px;
+        left: -10px;
+    }
+
+    .chat .message-box {
+        padding: 10px;
+        margin-top: 50px;
+        margin-right: 10px;
+    }
+
+    .chat .two,
+    .chat .three {
+
+        transform: scale(.80) translateX(60px);
+    }
+
+    .two {
+        top: -80px;
+    }
+
+    .three {
+        bottom: -80px;
+    }
+
 }
 
 
@@ -83,6 +125,43 @@
         flex-direction: column;
     }
 
+
+
+    /* Riview section starts here  */
+    .review {
+        margin: 20px;
+        padding: 20px;
+        padding-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .meet {
+        max-width: 100%;
+    }
+
+    .chat {
+        margin-right: 0px;
+    }
+
+    .chat .message-box {
+        padding: 10px;
+        margin-top: 50px;
+        margin: 0 50px;
+    }
+
+    .chat .two,
+    .chat .three {
+
+        transform: scale(.80) translate(80px);
+    }
+
+    .two {
+        top: -90px;
+    }
+
+    .three {
+        bottom: -90px;
+    }
 
 
 }
