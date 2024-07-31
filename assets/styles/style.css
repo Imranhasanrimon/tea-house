@@ -134,3 +134,24 @@ header .rating-card p {
     margin-top: 30px;
     margin-bottom: -20px;
 }
+
+/* fresh tea section starts here  */
+.fresh-tea {
+    display: flex;
+    gap: 50px;
+}
+
+.fresh-tea .grid-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.fresh-tea .grid-box>div {
+    background-color: antiquewhite;
+}
+
+.fresh-tea .grid-box .image {
+    grid-row: span 3;
+}
