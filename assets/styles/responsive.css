@@ -92,6 +92,33 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* footer section starts here  */
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer .info {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+
+    }
+
+    .footer .info .column4 {
+        grid-column: span 2;
+    }
+
+    .footer .nav .right-side {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer .nav .right-side .btn-primary {
+        font-size: 1rem;
+        padding: 10px;
+
+    }
+
+
 }
 
 
@@ -171,11 +198,32 @@
     /* news section starts here  */
     .news .container {
         grid-template-columns: repeat(2, 1fr);
-
     }
 
     .news .container .double-span {
         grid-column: span 2;
     }
+
+    /* footer section starts here  */
+    footer {
+        padding: 10px 50px;
+    }
+
+    .footer .info {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px;
+
+    }
+
+    .footer .nav .right-side {
+        gap: 20px;
+    }
+
+    .footer .nav .right-side .btn-primary {
+        font-size: 1rem;
+        padding: 15px;
+
+    }
+
 
 }

@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Manrope", sans-serif;
+    list-style: none;
 }
 
 /* shared styles  */
@@ -290,4 +291,66 @@ header .rating-card p {
 
 .news .container .card img {
     width: 100%;
+}
+
+/* footer section starts here  */
+footer {
+    background: linear-gradient(270.00deg, rgba(255, 0, 0, 0.1), rgba(255, 137, 56, 0.1) 100%);
+    padding: 130px 0;
+
+}
+
+
+.footer .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .nav .right-side {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer .info {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .info .heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.footer .info .data {
+    margin-top: 18px;
+    line-height: 30px;
+    color: rgb(119, 119, 119);
+}
+
+.footer .info .column4 h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.footer .info .column4 input {
+    border: none;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    background: transparent;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.footer .info .column4 i {
+    font-size: 1.5rem;
+    margin-right: 25px;
+}
+
+.footer>p {
+    text-align: center;
+    margin-top: 60px;
 }
