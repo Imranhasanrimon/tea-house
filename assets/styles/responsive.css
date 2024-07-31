@@ -1,0 +1,52 @@
+/* for small devices  */
+@media screen and (max-width: 576px) {
+
+    /* header section starts here  */
+    header {
+        flex-direction: column-reverse;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin-top: 30px;
+    }
+
+    header .rating-card {
+        width: 180px;
+        height: 70px;
+        left: 100px;
+    }
+
+    header .rating-card h2 {
+        font-size: 1.5rem;
+    }
+
+    header .rating-card p {
+        font-size: .75rem;
+    }
+}
+
+
+
+/* for medium devices  */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* header section starts here  */
+    header {
+        padding: 0 40px;
+        flex-direction: column-reverse;
+    }
+
+    header h1 {
+        font-size: 4rem;
+        margin-top: 30px;
+    }
+
+    header .text {
+        max-width: 100%;
+    }
+
+
+
+
+}

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Balsamiq Sans", sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
 /* shared styles  */
@@ -23,4 +23,74 @@
     font-weight: 700;
     padding: 20px;
     border: none;
+}
+
+/* header section starts here  */
+header {
+    max-width: 1180px;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .text {
+    max-width: 628px;
+}
+
+header h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+header button {
+    margin-top: 30px;
+}
+
+header button i {
+    transform: rotate(320deg);
+    margin-left: 10px;
+
+
+}
+
+header .image {
+    /* width: 655px; */
+    position: relative;
+}
+
+header .image img {
+    width: 100%;
+}
+
+header .rating-card {
+    width: 255px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+}
+
+header .rating-card i {
+    color: rgb(255, 200, 80);
+    font-size: 2rem;
+}
+
+header .rating-card h2 {
+    font-size: 1.875rem;
+    font-weight: 800;
+}
+
+header .rating-card p {
+    color: rgb(119, 119, 119);
+    font-weight: 600;
 }
