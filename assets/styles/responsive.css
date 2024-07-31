@@ -24,6 +24,12 @@
     header .rating-card p {
         font-size: .75rem;
     }
+
+    /* feature section starts here  */
+    .feature .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
 
 
@@ -46,6 +52,11 @@
         max-width: 100%;
     }
 
+    /* feature section starts here  */
+    .feature .container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 
 
 
