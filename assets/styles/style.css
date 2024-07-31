@@ -144,14 +144,30 @@ header .rating-card p {
 .fresh-tea .grid-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 20px;
 }
 
 .fresh-tea .grid-box>div {
     background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-radius: 10px;
 }
 
 .fresh-tea .grid-box .image {
     grid-row: span 3;
+}
+
+.fresh-tea .text>p {
+    margin: 30px 0;
+}
+
+.fresh-tea .text article h4 {
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-weight: 800;
+    font-size: 1.25rem;
 }

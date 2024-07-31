@@ -35,6 +35,16 @@
         grid-template-columns: repeat(1, 1fr);
 
     }
+
+    /* fresh tea section starts here  */
+    .fresh-tea {
+        flex-direction: column;
+    }
+
+    .fresh-tea img {
+        width: 100%;
+    }
+
 }
 
 
@@ -66,6 +76,11 @@
     .feature .container {
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    /* fresh tea section starts here  */
+    .fresh-tea {
+        flex-direction: column;
     }
 
 
